@@ -44,12 +44,6 @@ namespace ProxyKit
                         .ForwardTo("http://localhost:" + port + "/")
                         .AddXForwardedHeaders()
                         .Send()));
-
-                app.UseWebSockets();
-                app.Map("/ws", appInner =>
-                {
-                    appInner.UseWebSocketProxy(new Uri($"ws://localhost:{port}/ws/"));
-                });
             }
         }
     }

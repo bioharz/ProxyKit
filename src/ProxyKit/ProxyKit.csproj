@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>An AspNet core middleware toolkit to create proxy servers. Can
     be used in applications or used as a standalone proxy (i.e. containerised system).</Description>
-    <PackageId>ProxyKit</PackageId>
-    <Authors>Damian Hickey</Authors>
-    <PackageProjectUrl>https://github.com/damianh/ProxyKit</PackageProjectUrl>
+    <PackageId>ProxyKitWebSocket</PackageId>
+    <Authors>Damian Hickey, Edited by @bioharz</Authors>
+    <PackageProjectUrl>https://github.com/bioharz/ProxyKit</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -20,6 +20,7 @@
     <LangVersion>latest</LangVersion>
     <DebugType>full</DebugType>
     <PackageIconUrl>https://raw.githubusercontent.com/damianh/ProxyKit/master/logo.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ConfigureAwaitChecker.Analyzer" Version="3.0.0">
