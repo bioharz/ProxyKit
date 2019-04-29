@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>An AspNet core middleware toolkit to create proxy servers. Can
     be used in applications or used as a standalone proxy (i.e. containerised system).</Description>
-    <PackageId>ProxyKit</PackageId>
-    <Authors>Damian Hickey</Authors>
+    <PackageId>ProxyKitWebSocketSignalR</PackageId>
+    <Authors>Damian Hickey, published by bioharz</Authors>
     <PackageProjectUrl>https://github.com/damianh/ProxyKit</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
